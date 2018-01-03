@@ -1,0 +1,23 @@
+{
+  "name": "onfitpro",
+  "version": "1.0.0",
+  "description": "site for OnFitPro",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viktorsamkevich/onfitpro.git"
+  },
+  "author": "Viktor Samkevich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viktorsamkevich/onfitpro/issues"
+  },
+  "homepage": "https://github.com/viktorsamkevich/onfitpro#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.2",
+    "gulp": "^3.9.1"
+  }
+}
