@@ -9,6 +9,7 @@ https://www.pexels.com/search/fitness/
 # Цвета:
 серый: #606060
 желтый: #FFC800
+как paypal: #DFDFDF
 
 # ГЛАВНАЯ #О ПРОЕКТЕ #ПРОГРАММЫ И ЦЕНЫ #FAQ #КОНТАКТЫ
 
