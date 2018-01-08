@@ -53,6 +53,9 @@ img {max-width: 100%;}
 	background-size: cover;
 	padding: 145px 0 160px 0;
 }
+.wr-slider {
+	max-height: 800px;
+}
 .wr-featured {
 	background: #f3f3f3;
 	padding: 35px 0px 20px 95px;
@@ -208,7 +211,10 @@ img {max-width: 100%;}
 	-webkit-transform: scale(1.03);
 	transform: scale(1.03);
 }
-
+/*Create billboard text and button*/
+.carousel-caption {
+	top: 20%;
+}
 
 /*featured*/
 .featured__link {
