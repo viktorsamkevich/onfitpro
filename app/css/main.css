@@ -1,8 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto+Slab:300,400,700&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 
 font-family: 'Roboto Slab', serif;
 font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
 
 font-fase {
 	font-family: 'Rockwell Std Light';	
@@ -17,6 +19,14 @@ font-fase {
 a {
 	text-decoration: none;
 }
+a:visited {
+	text-decoration: none;
+	color: #FFC800;
+}
+a:active {
+	text-decoration: none;
+	color: #FFC800;
+}
 
 .clear {
 	content: '';
@@ -29,10 +39,10 @@ img {max-width: 100%;}
 
 .header {
 	background: #606060;
-	padding: 25px 0 25px;
+	padding: 15px 0 15px;
 }
 .wr-billboard {
-	background: url(../img/bilboard.png) 0 0 no-repeat;
+	background: url(../img/slider/slide3.jpeg) 0 0 no-repeat;
 	background-size: cover;
 	padding: 145px 0 160px 0;
 }
@@ -62,7 +72,7 @@ img {max-width: 100%;}
 /*Create logo*/
 .header__logo {
 	color: #ffffff;
-	font-family:'Rockwell Std Light';
+	font-family: 'Pacifico', cursive;
 	font-size: 36px;
 	font-weight: 600;
 	letter-spacing: 0.2px;
@@ -74,7 +84,7 @@ img {max-width: 100%;}
 
 .header__logo:hover {
 	text-decoration: none;
-	color: #ffffff;
+	color: #FFC800;
 }
 
  /*Create menu*/
@@ -87,7 +97,7 @@ img {max-width: 100%;}
 }
 .header__nav ul li {
 	display: inline-block;
-	margin-right:30px;
+	margin-right: 20px;
 }
 .header__nav ul li:last-child{
 	margin-right:0;
@@ -99,6 +109,7 @@ img {max-width: 100%;}
 	font-weight: 600;
 	line-height: 19px;
 	letter-spacing: 0.6px;
+	/* text-decoration: underline; */
 }
 
 .header__nav ul li a:hover {
@@ -111,16 +122,16 @@ img {max-width: 100%;}
 	float: right;
 	margin-top: 5px;
 }
-.header__socials:after {
+.header__socials::after {
 	@extend .clear;
 }
 .header__social li {
 	display: inline-block;
-	width: 30px;
-	height: 30px;
+	width: 32px;
+	height: 32px;
 	border-radius: 50%;
 	background-color: #ffffff;
-	line-height: 30px;
+	line-height: 32px;
 	text-align: center;
 	margin-left: 15px;
 }
@@ -134,60 +145,43 @@ img {max-width: 100%;}
 	background: #606060;
 	color: #ffffff;
 }
-/* .header__social li a i:hover {
-	color: #ffffff;
-} */
 .header__social li a i {
 	font-family: 'FontAwesome';
 	color: black;
-	font-size: 14px;
+	font-size: 18px;
+	padding-top: 6px;
 }
 
 
 /*Create billboard text and button*/
 .billboard__section {
-	margin-left: 7px;
+	/* margin-left: 7px; */
 }
 .billboard__section h1 {
-	color: #525252;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 34px;
+	color: #FFC800;
+	font-family: 'Roboto Slab', serif;
+	font-size: 38px;
 	font-weight: 700;
 	line-height: 40px;
 	letter-spacing: 2px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 .billboard__section p {
-	color: #6e6c6c;
+	color: #fff;
 	font-family: 'Open Sans', sans-serif ;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 400;
 	line-height: 28px;
 	letter-spacing: 0.8px;
 	padding-top: 20px;
 }
-.billboard__section-button:last-child {
-	margin-right: 0;
-}
-i.icon-iphone {
-	width: 12px;
-	height: 16px;
-	background-position: -63px 0;
-	margin-right: 15px;
-}
-i.icon-android {
-	width: 12px;
-	height: 16px;
-	background-position: -88px 0;
-	margin-right: 15px;
-}
 .billboard__section-button {
-	color: #644a4a;
+	color: #fff;
 	font-family: 'Open Sans', sans-serif ;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 600;
 	text-transform: uppercase;
-	border: 2px solid #525252;
+	border: 2px solid #606060;
 	background: none;
 	display: inline-block;
 	letter-spacing: 0.2px;
@@ -197,6 +191,7 @@ i.icon-android {
 }
 .billboard__section-button:hover {
 	text-decoration: none;
+	color: #FFC800;
 	-moz-transform: scale(1.03);
 	-ms-transform: scale(1.03);
 	-webkit-transform: scale(1.03);
@@ -556,7 +551,7 @@ i.icon-windows_footer:hover {
 .app {min-width: 320px;}
 @media (max-width: 1199px) { 
 	.header__social {margin-right: 0;}
-	.header__nav ul li {margin-right: 30px;}
+	.header__nav ul li {margin-right: 20px;}
 	.billboard__section-button {margin-right: 3px;}
 	.footer__os li {margin-right: 25px;}
 }	
@@ -611,8 +606,8 @@ i.icon-windows_footer:hover {
     top: 0;
     right: 0;
     bottom: 0;
-    background: #43bc7b;
-    opacity: 0.8;
+    background: #FFC800;
+    opacity: 0.5;
     z-index: 100500;
 }
 
