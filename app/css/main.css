@@ -21,7 +21,7 @@ a {
 }
 a:visited {
 	text-decoration: none;
-	color: #FFC800;
+	/* color: #FFC800; */
 }
 a:active {
 	text-decoration: none;
@@ -38,9 +38,16 @@ a:active {
 img {max-width: 100%;}
 
 .header {
-	background: #606060;
+	/* background: #606060; */
 	padding: 15px 0 15px;
+	/* opacity: 0.5; */
 }
+.header__bg {
+	background: #606060;
+	padding: 10px 0 10px;
+	/* opacity: 0.5; */
+}
+
 .wr-billboard {
 	background: url(../img/slider/slide3.jpeg) 0 0 no-repeat;
 	background-size: cover;
@@ -71,7 +78,7 @@ img {max-width: 100%;}
 
 /*Create logo*/
 .header__logo {
-	color: #ffffff;
+	color: #fff;
 	font-family: 'Pacifico', cursive;
 	font-size: 36px;
 	font-weight: 600;
@@ -85,6 +92,10 @@ img {max-width: 100%;}
 .header__logo:hover {
 	text-decoration: none;
 	color: #FFC800;
+	transform: scale(1.04);
+	-moz-transform: scale(1.04);
+	-ms-transform: scale(1.04);
+	-webkit-transform: scale(1.04);
 }
 
  /*Create menu*/
