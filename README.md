@@ -4,8 +4,9 @@
 
 #Фотостоки:
 https://unsplash.com/search/photos/sport
-
 https://www.pexels.com/search/fitness/
+https://www.dreamstime.com/search.php?securitycheck=90b919df50da54cb68595252374d9373&firstvalue=&lastsearchvalue=&srh_field=fitness
+
 # Цвета:
 серый: #606060
 желтый: #FFC800
@@ -24,6 +25,10 @@ https://www.pexels.com/search/fitness/
 8. Футер.
 ?? акции можем перекинуть в раздел программы и цены??
 
+наша команда: https://bootsnipp.com/snippets/featured/responsive-team-profiles-with-social-links-free
+как мы работаем по шагам: https://bootsnipp.com/snippets/featured/zigzag-timeline-layout
+отзывы: https://bootsnipp.com/snippets/featured/responsive-quote-carousel
+
 
 # О проекте
 в начале картинка (понятия не имею что туда вставить)!!!!!
@@ -36,3 +41,12 @@ https://www.pexels.com/search/fitness/
 потом наша команда (сам подумай в каком виде круче всего было бы и возле каждого члена команды кнопочку мол задать вопрос)
 потом результаты наших подопечных (не знаю в каком виде, может в таком же как на главной с кнопкой читать/смотреть отзывы)
 потом инста и футер
+
+
+Полезные ссылки:
+
+http://tablestrap.com/#tables - генератор таблиц для bootstrap
+
+http://jsfiddle.net/e3nk137y/1434/ добавление опции сортировки в таблицу
+
+http://bootsnipp.com/forms - генератор форм для bootstrap
