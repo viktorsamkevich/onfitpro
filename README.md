@@ -28,7 +28,9 @@
 ?? акции можем перекинуть в раздел программы и цены??
 
 наша команда: https://bootsnipp.com/snippets/featured/responsive-team-profiles-with-social-links-free
+
 как мы работаем по шагам: https://bootsnipp.com/snippets/featured/zigzag-timeline-layout
+
 отзывы: https://bootsnipp.com/snippets/featured/responsive-quote-carousel
 
 
