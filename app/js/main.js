@@ -6,24 +6,24 @@ $(window).on('load', function () {
 	$preloader.delay(350).fadeOut('slow');
 });
 //fixed Header
-var header = document.getElementById("header");
-var greenSection = document.getElementById("greenSection");
+// var header = document.getElementById("header");
+// var greenSection = document.getElementById("greenSection");
 
-function fixedHeader() {
-	var scroll = document.body.scrollTop;
-	var ffScroll = document.documentElement.scrollTop;
+// function fixedHeader() {
+// 	var scroll = document.body.scrollTop;
+// 	var ffScroll = document.documentElement.scrollTop;
 
-	var intervalHeader = greenSection.offsetTop;
-	if(scroll > intervalHeader || ffScroll > intervalHeader) {
-		/*header.style.cssText = "background: #606060;";*/
-		header.classList.add("header__bg");
-	} else if (scroll < intervalHeader || ffScroll < intervalHeader) {
-		header.className = "header navbar-fixed-top";
-		header.classList.remove("header__bg");
-	}
-	console.log(intervalHeader);
-}
+// 	var intervalHeader = greenSection.offsetTop;
+// 	if(scroll > intervalHeader || ffScroll > intervalHeader) {
+// 		/*header.style.cssText = "background: #606060;";*/
+// 		header.classList.add("header__bg");
+// 	} else if (scroll < intervalHeader || ffScroll < intervalHeader) {
+// 		header.className = "header navbar-fixed-top";
+// 		header.classList.remove("header__bg");
+// 	}
+// 	console.log(intervalHeader);
+// }
 
-window.onscroll = function () {
-	fixedHeader();
-}
+// window.onscroll = function () {
+// 	fixedHeader();
+// }
