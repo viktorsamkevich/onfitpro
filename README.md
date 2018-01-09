@@ -2,7 +2,7 @@
 
 # https://viktorsamkevich.github.io/onfitpro/app/index.html
 
-#Фотостоки:
+# Фотостоки:
 https://unsplash.com/search/photos/sport
 https://www.pexels.com/search/fitness/
 https://www.dreamstime.com/search.php?securitycheck=90b919df50da54cb68595252374d9373&firstvalue=&lastsearchvalue=&srh_field=fitness
