@@ -6,11 +6,6 @@ font-family: 'Roboto Slab', serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Pacifico', cursive;
 
-font-fase {
-	font-family: 'Rockwell Std Light';	
-	src:url(../fonts/Rockwell Std Light.otf);
-}
-
 * {
 	margin: 0;
 	padding: 0;
@@ -62,14 +57,18 @@ img {max-width: 100%;}
 .wr-slider {
 	max-height: 800px;
 }
-.wr-featured {
-	background: #f3f3f3;
-	padding: 35px 0px 20px 95px;
+.wr-forwhom {
+	background: #fff;
+	padding: 0 0px 20px 0px;
+}
+.wr-advantages {
+	background: #fff;
+	padding: 0 0px 20px 0px;
 }
 .wr-about {
 	padding: 70px 0 142px 0;
 }
-.wr-features {
+.wr-forwhoms {
 	background: #43bc7b;
 	padding: 100px 0 20px 0;
 }
@@ -205,10 +204,10 @@ img {max-width: 100%;}
     width: 250px;
     text-align: center;
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    line-height: 20px;
+    /* font-weight: 600; */
     background: #B2B7BB;
     display: inline-block;
     letter-spacing: 0.2px;
@@ -220,33 +219,102 @@ img {max-width: 100%;}
 	text-decoration: none;
     color: #FFC800;
     background-color: #fff;
-    -moz-transform: scale(1.03);
-    -ms-transform: scale(1.03);
-    /* -webkit-transform: scale(1.03); */
-    /* transform: scale(1.03); */
     background: rgba(255, 255, 255, 0.5);
     transition: all 0.5s ease;
 }
-/*Create billboard text and button*/
-.carousel-caption {
-	top: 20%;
+
+/*Create section forwhom*/
+.heading__forwhom {
+	text-align: center;
+	color: #FFC800;
+	font-family: 'Roboto Slab', serif;
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 40px;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+}
+.forwhom__item {
+	margin-bottom: 20px;
+	background: #FAFAFA;
+	min-height: 216px;
+}
+.forwhom__item img {
+	display: block;
+    max-width: 100%;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+.forwhom__item h3 {
+	margin-top: 10px;
+	padding-left: 10px;
+    padding-right: 10px;
+	text-align: center;
+    color: #000000;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    /* letter-spacing: 2px; */
+}
+.forwhom__item hr {
+    margin-top: 20px;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 2px solid #000;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.forwhom__item_text {
+	margin: 0px;
+	padding: 0px 20px 20px 20px;
+	text-align: justify;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    /* letter-spacing: 2px; */
+}
+.forwhom__dropdown {
+	margin: 0;
+}
+.forwhom__btn {
+	height: 50px;
+	width: 262px;
+	text-align: center;
+	color: #fff;
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	line-height: 20px;
+	/* font-weight: 600; */
+	background: #B2B7BB;
+	display: inline-block;
+	letter-spacing: 0.2px;
+	padding: 15px 15px;
+	margin-top: 20px;
+	border-radius: 30px;
+}
+.forwhom__btn:hover {
+	text-decoration: none;
+    color: #FFC800;
+    background-color: #fff;
+    background: rgba(255, 255, 255, 0.5);
+    transition: all 0.5s ease;
+}
+/*Create section advantages*/
+.heading__advantages {
+	text-align: center;
+	color: #FFC800;
+	font-family: 'Roboto Slab', serif;
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 40px;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
 }
 
-/*featured*/
-.featured__link {
-	text-align: center;
-	line-height: 100px;
-}
-.featured__link:hover img {
-	-moz-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.3s ease;
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-}
 
 
 /*about*/
@@ -595,15 +663,15 @@ i.icon-windows_footer:hover {
 	.header__nav ul {text-align: center;}
 	.header__social {float: none;/* text-align: center; */}
 	.wr-billboard {padding: 140px 0 140px 0;}
-	.wr-featured a img {width: 150px; margin: 15px auto;}
-	.wr-featured a img {padding-bottom: 15px;}
+	.wr-forwhom a img {width: 150px; margin: 15px auto;}
+	.wr-forwhom a img {padding-bottom: 15px;}
 }
 @media (max-width: 481px) {
 	.about__iphone {display: block; margin: 0 0 30px 0;}
 	.billboard__section-button {margin: 20px 0 0 55px;}
 	.billboard__section-button:last-child {padding: 17px 36px;}
-	.wr-featured {padding: 20px 0px 20px 20px;}
-	.wr-featured a img {padding-bottom: 15px;}
+	.wr-forwhom {padding: 20px 0px 20px 20px;}
+	.wr-forwhom a img {padding-bottom: 15px;}
 	.wr-about {padding: 50px 0;}
 	.about__button-link {padding: 20px 20px;}
 	.about__button-get {padding-left: 20px;}
