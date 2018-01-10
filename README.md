@@ -8,6 +8,9 @@
  https://www.pexels.com/search/fitness/
  
  https://www.dreamstime.com/search.php?securitycheck=90b919df50da54cb68595252374d9373&firstvalue=&lastsearchvalue=&srh_field=fitness
+ 
+ # Шрифты: 
+ https://www.imena.ua/blog/make-best-font-pairs/
 
 # Цвета:
 серый: #606060
