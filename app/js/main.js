@@ -27,3 +27,12 @@ $(window).on('load', function () {
 // window.onscroll = function () {
 // 	fixedHeader();
 // }
+
+//slider reviews
+$(document).ready(function() {
+  //Set the carousel options
+  $('#quote-carousel').carousel({
+    pause: true,
+    interval: 5000,
+  });
+});
