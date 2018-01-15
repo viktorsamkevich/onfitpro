@@ -595,12 +595,19 @@ Small devices (tablets, up to 768px)
 	font-weight: 700;
 	letter-spacing: 2px;
 	/* margin-bottom: 20px; */
-	padding-left: 40px;
+	/* padding-left: 40px; */
 }
 
+.footer__menu {
+	margin-left: 0;
+}
+.footer__menu-margin {
+	margin-left: 40px;
+}
 .footer__menu ul {
 	list-style-type: none;
 	margin-bottom: 0;
+	padding-left: 0px;
 }
 .footer__menu ul li {
 	margin-bottom: 10px;
@@ -628,9 +635,9 @@ Small devices (tablets, up to 768px)
 .footer__copyright {
 	padding: 0;
 	margin: 0;
-	text-align: center;
-	color: #000000;
-	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	color: #555;
+	font-family: 'Roboto Slab', serif;
 	font-size: 14px;
 	font-weight: 400;
 	letter-spacing: 0.8px;
