@@ -36,6 +36,8 @@
 
 отзывы: https://bootsnipp.com/snippets/featured/responsive-quote-carousel
 
+https://bootsnipp.com/snippets/featured/carousel-with-face-indicators
+
 
 # О проекте
 Ш в начале фото (либо команда, либо тренировочный процесс и еда)
