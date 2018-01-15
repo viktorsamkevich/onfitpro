@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/viktorsamkevich/onfitpro/issues"
   },
-  "homepage": "https://github.com/viktorsamkevich/onfitpro#readme"
+  "homepage": "https://github.com/viktorsamkevich/onfitpro#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.5",
+    "gulp": "^3.9.1"
+  }
 }
