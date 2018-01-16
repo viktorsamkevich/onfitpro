@@ -41,9 +41,8 @@ img {max-width: 100%;}
 	/* height: 50px; */
 	/* padding: 15px 0 15px; */
 	/* opacity: 0.5; */
-    padding-left: 15%;
-    padding-right: 15%;
-
+	padding-left: 8%;
+	padding-right: 8%;
 }
 /* .header__bg {
 	background: #606060;
@@ -79,29 +78,12 @@ img {max-width: 100%;}
 }
 .wr-partners {
 	/* background: #fff; */
-	padding: 0 0px 20px 0px;
+	padding: 0 0px 10px 0px;
 }
 .footer {
 	background: #F2F2F2;
 	padding: 20px 0px 0px 0px;
 }
-/* .wr-about {
-	padding: 70px 0 142px 0;
-}
-.wr-forwhoms {
-	background: #43bc7b;
-	padding: 100px 0 20px 0;
-}
-.wr-testimonials {
-	padding: 90px 0 94px 0;
-}
-.wr-subscription {
-	background: #43bc7b;
-	padding: 85px 0 100px 0;
-}
-.footer {
-	padding: 95px 0;
-} */
 
 /*Create logo*/
 .header__logo {
@@ -111,7 +93,6 @@ img {max-width: 100%;}
 	letter-spacing: 0.2px;
 	/* font-weight: 600;
 	line-height: 0; */
-	/* background:url(../img/logo_camera.png) 0 0 no-repeat; */
 	display: block;
 	/* margin-top: 10px; */
 }
@@ -130,10 +111,9 @@ img {max-width: 100%;}
 .header__nav ul {
 	list-style: none;
 	/* padding: 5px 0; */
-	
 }
-.header__nav>.navbar-nav {
-	margin-left: 10%;
+.header__nav > .navbar-nav {
+	margin-left: 5%;
 }
 .header__nav>.navbar-nav li {
 	display: inline-block;
@@ -142,6 +122,14 @@ img {max-width: 100%;}
 }
 .header__nav ul li:last-child{
 	margin-right:0;
+}
+.header__nav > .header__login li {
+	color: #FFFFFF;
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 18px;
+	margin-right: 5px;
 }
 .header__nav ul li a {
 	color: #FFFFFF;
@@ -228,7 +216,7 @@ img {max-width: 100%;}
 }
 .billboard__section-button {
 	height: 50px;
-	width: 250px;
+	width: 260px;
 	text-align: center;
 	color: #fff;
 	font-family: 'Roboto Slab', serif;
@@ -352,7 +340,7 @@ img {max-width: 100%;}
     border-radius: 50%;
     margin-right: 20px;
     margin-top: 10px;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
 }
 /*Create section programs*/
 .programs__heading {
@@ -395,6 +383,7 @@ img {max-width: 100%;}
 }
 .programs__content h3 {
 	margin-top: 10px;
+	margin-bottom: 10px;
 	text-align: center;
 	color: #FFC800;
 	font-family: 'Roboto Slab', serif;
@@ -575,7 +564,7 @@ Small devices (tablets, up to 768px)
 	font-weight: 700;
 	line-height: 40px;
 	letter-spacing: 2px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 .featured__link {
 	text-align: center;
@@ -584,7 +573,7 @@ Small devices (tablets, up to 768px)
 .featured__link img {
 	height: 100px;
 	display: block;
-    margin: 0 auto;
+	margin: 10px auto;
 }
 
 /*footer*/
@@ -601,6 +590,7 @@ Small devices (tablets, up to 768px)
 
 .footer__menu {
 	margin-left: 0;
+	margin-bottom: 10px;
 }
 .footer__menu-margin {
 	margin-left: 40px;
@@ -644,72 +634,30 @@ Small devices (tablets, up to 768px)
 	letter-spacing: 0.8px;
 }
 
-
-/*Plugins*/
-.popup {
-	background: #ffffff;
-	width: 600px;
-	padding: 30px;
-	position: relative;
-	display: none;
-}
-.popup .b-close {
-	position: absolute; top: -30px; right: -30px;
-	font-size: 40px; color:#ffffff; text-decoration: none;
-}
-
 /*adaptation*/
 .app {min-width: 320px;}
-@media (max-width: 1199px) { 
-	.header__social {margin-right: 0;}
-	.header__nav ul li {margin-right: 20px;}
-	.billboard__section-button {margin-right: 3px;}
-	.footer__os li {margin-right: 25px;}
-
+@media (max-width: 1200px) {
 	.forwhom__btn {width: 212px;}
+	.footer__menu-margin {margin-left: 10px;}
 }	
 @media (max-width: 991px) {
-	.header {padding: 30px 0;}
-	.header__logo {width: 125px;margin: 0 auto;}
-	.header__nav {margin: 30px 0;}
-	.header__nav ul {text-align: center;}
-	.header__social {float: none;/* text-align: center; */}
-	.wr-billboard {padding: 140px 0 140px 0;}
-	.wr-forwhom a img {width: 150px; margin: 15px auto;}
-	.wr-forwhom a img {padding-bottom: 15px;}
+	.forwhom__btn {width: 345px;}
+	.programs__content h3 {font-size: 24px; margin-top: 5px;margin-bottom: 5px;}
+	.programs__content ul li {font-size: 20px; padding-top: 10px;}
+	.footer__menu {margin-left: 10px;}
 }
+@media (max-width: 767px) {
+	.advantages__picture {float: none; margin: 0 auto;}
+	.advantages__content {padding-left: 30px; padding-right: 30px;}
+	.advantages__content h3 {/* margin-top: 0px; */margin: 0;/* display: block; */text-align: center;}
+}
+
+
 @media (max-width: 481px) {
-	.about__iphone {display: block; margin: 0 0 30px 0;}
-	.billboard__section-button {margin: 20px 0 0 55px;}
-	.billboard__section-button:last-child {padding: 17px 36px;}
-	.wr-forwhom {padding: 20px 0px 20px 20px;}
-	.wr-forwhom a img {padding-bottom: 15px;}
-	.wr-about {padding: 50px 0;}
-	.about__button-link {padding: 20px 20px;}
-	.about__button-get {padding-left: 20px;}
-	.wr-testimonials {padding: 50px 0;}
-	.wr-subscription {padding: 50px 0;}
-	.footer {/* padding: 50px 0; */}
+
 }
 @media (max-width: 320px) {
-	.billboard__section-button {margin: 20px 0 0 10px;}
-	.billboard__section-button {padding: 17px 43px;}
-	.testimonials__section {padding: 0 20px;}
-	.testimonials__section-item blockquote p {font-size: 14px; line-height: 30px;}
-	.header__nav ul li {display: block; margin: 0 0 20px 0;}
-	.about__section h2 {font-size: 30px; line-height: 40px;}
-	.about__section p {font-size: 16px; line-height: 30px; letter-spacing: 0;}
-	.about__section ul li {font-size: 14px; line-height: 20px;}
-	.about__button-link {padding: 20px 20px;}
-	.about__button-get {margin: 25px 0 0 50px;}
-	.subscription__section h4 {margin-bottom: 30px;}
-	.subscription__section form input {width: 255px;}
-	.subscription__section form button {right: 20px;}
-	.footer__copyright small{letter-spacing: 0.3px;}
-	.footer__os li {margin: 0 10px;}
-	.wr-billboard {padding: 110px 0 110px 0;}
-	.wr-about {padding: 85px 0 85px 0;}
-	.footer {padding: 50px 0;}	
+	
 }
 
 /*Preloader*/
@@ -731,4 +679,16 @@ Small devices (tablets, up to 768px)
     top: 50%;
     background: url('../img/spinner.gif') no-repeat 50% 50%;
     margin: -50px 0 0 -50px;
+}
+/*Plugins*/
+.popup {
+	background: #ffffff;
+	width: 600px;
+	padding: 30px;
+	position: relative;
+	display: none;
+}
+.popup .b-close {
+	position: absolute; top: -30px; right: -30px;
+	font-size: 40px; color:#ffffff; text-decoration: none;
 }
