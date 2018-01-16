@@ -649,15 +649,15 @@ Small devices (tablets, up to 768px)
 @media (max-width: 767px) {
 	.advantages__picture {float: none; margin: 0 auto;}
 	.advantages__content {padding-left: 30px; padding-right: 30px;}
-	.advantages__content h3 {/* margin-top: 0px; */margin: 0;/* display: block; */text-align: center;}
+	.advantages__content h3 {margin: 0; text-align: center;}
 }
-
 
 @media (max-width: 481px) {
-
+	.forwhom__item {min-height: 200px;}
+	.forwhom__btn {width: 330px;}
 }
-@media (max-width: 320px) {
-	
+@media (max-width: 321px) {
+	.forwhom__btn {width: 290px;}
 }
 
 /*Preloader*/
