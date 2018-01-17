@@ -123,14 +123,6 @@ img {max-width: 100%;}
 .header__nav ul li:last-child{
 	margin-right:0;
 }
-.header__nav > .header__login li {
-	color: #FFFFFF;
-	font-family: 'Roboto Slab', serif;
-	font-size: 16px;
-	font-weight: 600;
-	line-height: 18px;
-	margin-right: 5px;
-}
 .header__nav ul li a {
 	color: #FFFFFF;
 	font-family: 'Roboto Slab', serif;
@@ -145,6 +137,27 @@ img {max-width: 100%;}
 	text-decoration: none;
 }
 .navbar>.container-fluid .header__nav ul li a:hover {
+	color: #FFC800;
+	text-decoration: none;
+}
+
+.dropdown > .dropdown-menu {
+	background: #323232;
+	width: 156px;
+}
+.dropdown > .dropdown-menu .setting {
+	width: 156px;
+	min-width: 150px;
+}
+.dropdown > .setting li {
+	margin-right: 0;
+	width: 156px;
+}
+.dropdown > .setting li a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.dropdown > .setting li a:hover {
 	color: #FFC800;
 	text-decoration: none;
 }
