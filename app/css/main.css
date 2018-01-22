@@ -438,6 +438,7 @@ img {max-width: 100%;}
     transition: all 0.5s ease;
 }
 
+/*******************/
 /* Carousel reviews*/
 
 #quote-carousel {
@@ -457,15 +458,15 @@ img {max-width: 100%;}
     margin-top: 50px;
 }
 #quote-carousel .carousel-control.left {
-    left: -10px;
+    left: -15px;
 }
 #quote-carousel .carousel-control.right {
-    right: -10px;
+    right: -15px;
 }
 #quote-carousel .carousel-indicators {
     right: 50%;
     top: auto;
-    /* bottom: 0px; */
+    bottom: 0px;
     margin-right: -19px;
 }
 #quote-carousel .carousel-indicators li {
@@ -489,7 +490,7 @@ img {max-width: 100%;}
     overflow: hidden;
 }
 .carousel-inner {
-    min-height: 300px;
+    min-height: 250px;
 }
 .item blockquote {
     border-left: none;
@@ -518,10 +519,12 @@ img {max-width: 100%;}
     float: right;
     margin-left: 5px;
 }
-.comment__name a {
+.item blockquote .comment__name {
+	text-align: left;
+}
+.item blockquote .comment__name a {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	/* padding-bottom: 20px; */
 	color: #000000;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
@@ -529,10 +532,10 @@ img {max-width: 100%;}
 	line-height: 18px;
 	letter-spacing: 0.8px;
 }
-.comment__name a:visited {
+.item blockquote .comment__name a:visited {
 	text-decoration: none;
 }
-.comment__name a i {
+.item blockquote .comment__name a i {
 	font-family: 'Fontawesome';
 	font-size: 20px;
 	font-weight: 400;
@@ -766,13 +769,18 @@ Small devices (tablets, up to 768px)
 	.advantages__picture {float: none; margin: 0 auto;}
 	.advantages__content {padding-left: 30px; padding-right: 30px;}
 	.advantages__content h3 {margin: 0; text-align: center;}
+	.carousel-inner {min-height: 290px;}
 }
 
 @media (max-width: 481px) {
+	.programs__content h3 {font-size: 21px;}
+	.advantages__heading {font-size: 35px;}
 	.forwhom__item {min-height: 200px;}
 	.forwhom__btn {width: 330px;}
+	.carousel-inner {min-height: 380px;}
 }
 @media (max-width: 321px) {
+	
 	.forwhom__btn {width: 290px;}
 }
 
